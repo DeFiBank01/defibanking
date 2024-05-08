@@ -11,7 +11,7 @@ const ibmPlexSerif = IBM_Plex_Serif({
 
 export const metadata: Metadata = {
   title: "DeFiBank",
-  description: "DeFiBank  is a decentralized finance banking platform for everyone.",
+  description: "DeFiBank  is a decentralized finance banking platform for small medium enterprises.",
   icons: {
     icon: '/icons/logo.svg'
   }
