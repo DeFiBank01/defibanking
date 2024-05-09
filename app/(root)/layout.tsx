@@ -1,13 +1,15 @@
 import MobileNav from "../../banking/components/MobileNav";
+import Sidebar from "@/componenets/Sidebar";
+import { getLoggedInUser } from "@/lib/actions/user.actions";
+import Image from "next/image";
+import { redirect } from "next/navigation";
 
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const loggedIn = { firstName: 'Wolf', lastName:
-  'Botha' };
-
+  const loggedIn = { firstName: 'Wolf', lastName:'Botha' };
 
   return (
     <main className="flex h-screen w-ffull font-inter">
